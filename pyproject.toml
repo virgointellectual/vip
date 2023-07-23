@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "vip"
+version = "0.1.0"
+description = "A collection of multipurpose utilities across various programming languages"
+license = "Apache-2.0"
+authors = ["Arnold Salas <asalas@virgointellectual.com>"]
+readme = "README.md"
+repository = "https://github.com/virgointellectual/vip"
+packages = [{include = "Lib/vip/**/*.py"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
